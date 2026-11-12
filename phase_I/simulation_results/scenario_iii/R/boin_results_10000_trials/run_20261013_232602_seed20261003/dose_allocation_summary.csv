@@ -1,0 +1,6 @@
+"scenario","design","dose_level","dose_label","true_dlt_probability","is_true_target","total_patients_at_dose","total_DLT_at_dose","mean_patients_per_trial","mean_patients_mcse","mean_DLT_per_trial","mean_trial_allocation_proportion","pooled_patient_proportion","probability_dose_eliminated"
+"S3_higher_target","BOIN",1,"D1",0.02,0,37626,774,3.7626,0.0176112219767383,0.0774,0.12542,0.12542,0
+"S3_higher_target","BOIN",2,"D2",0.05,0,49830,2515,4.983,0.0321825212105445,0.2515,0.1661,0.1661,1e-04
+"S3_higher_target","BOIN",3,"D3",0.1,0,70083,6999,7.0083,0.0424935722359057,0.6999,0.23361,0.23361,0.0021
+"S3_higher_target","BOIN",4,"D4",0.18,0,74691,13575,7.4691,0.0418463813365397,1.3575,0.24897,0.24897,0.0226
+"S3_higher_target","BOIN",5,"D5",0.25,1,67770,16834,6.777,0.0602239968200326,1.6834,0.2259,0.2259,0.0596

@@ -1,0 +1,3 @@
+stop_reason,n_trials,probability
+maximum_sample_size_reached,9996,0.9996
+lowest_dose_eliminated_for_toxicity,4,0.0004

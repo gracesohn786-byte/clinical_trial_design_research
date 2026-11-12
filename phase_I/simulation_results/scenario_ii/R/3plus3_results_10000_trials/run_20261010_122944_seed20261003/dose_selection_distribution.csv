@@ -1,0 +1,7 @@
+scenario,design,dose_level,dose_label,true_dlt_probability,is_true_target,n_selected,selection_probability,selection_percent,mcse,mc_ci_low,mc_ci_high
+S2_lower_target,3+3,0,None,,0,1068,0.1068,10.68,0.003088588,0.100811619,0.11301844
+S2_lower_target,3+3,1,D1,0.1,0,3950,0.395,39.5,0.004888507,0.385400444,0.404660748
+S2_lower_target,3+3,2,D2,0.25,1,3666,0.3666,36.66,0.00481876,0.35714539,0.37613236
+S2_lower_target,3+3,3,D3,0.4,0,1191,0.1191,11.91,0.003239061,0.112813145,0.125609606
+S2_lower_target,3+3,4,D4,0.55,0,123,0.0123,1.23,0.001102212,0.010232649,0.014658171
+S2_lower_target,3+3,5,D5,0.7,0,2,2.00E-04,0.02,0.000141407,2.42E-05,0.00072228

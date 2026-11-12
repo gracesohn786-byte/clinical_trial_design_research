@@ -1,0 +1,21 @@
+scenario,design,metric,estimate,mcse,mc_ci_low,mc_ci_high,unit,ci_method
+S2_lower_target,3+3,PCS,0.3666,0.00481876,0.35714539,0.37613236,probability,Pointwise exact binomial
+S2_lower_target,3+3,P_select_below_true_target,0.395,0.004888507,0.385400444,0.404660748,probability,Pointwise exact binomial
+S2_lower_target,3+3,P_select_above_true_target,0.1316,0.003380554,0.125032216,0.138383132,probability,Pointwise exact binomial
+S2_lower_target,3+3,P_no_dose_recommended,0.1068,0.003088588,0.100811619,0.11301844,probability,Pointwise exact binomial
+S2_lower_target,3+3,P_stop_for_lowest_dose_toxicity,0.1068,0.003088588,0.100811619,0.11301844,probability,Pointwise exact binomial
+S2_lower_target,3+3,P_escalation_halted_for_toxicity,0.9998,0.000141407,0.99927772,0.999975778,probability,Pointwise exact binomial
+S2_lower_target,3+3,P_stop_before_max_n,0.9998,0.000141407,0.99927772,0.999975778,probability,Pointwise exact binomial
+S2_lower_target,3+3,P_reach_highest_dose,0.0208,0.001427143,0.01809309,0.023790771,probability,Pointwise exact binomial
+S2_lower_target,3+3,expected_N,12.9288,0.042260048,12.8459618,13.0116382,count,Approximate t interval for Monte Carlo mean
+S2_lower_target,3+3,expected_DLT_count,3.1686,0.011612532,3.145837101,3.191362899,count,Approximate t interval for Monte Carlo mean
+S2_lower_target,3+3,mean_trial_DLT_rate,0.260349907,0.000983079,0.258422875,0.262276939,proportion,Approximate t interval for Monte Carlo mean
+S2_lower_target,3+3,expected_n_below_target,4.7238,0.014832847,4.694724634,4.752875366,count,Approximate t interval for Monte Carlo mean
+S2_lower_target,3+3,expected_n_at_target,4.7244,0.019832897,4.68552353,4.76327647,count,Approximate t interval for Monte Carlo mean
+S2_lower_target,3+3,expected_n_above_target,3.4806,0.040160972,3.401876412,3.559323588,count,Approximate t interval for Monte Carlo mean
+S2_lower_target,3+3,mean_prop_below_target,0.432964405,0.00248775,0.428087915,0.437840895,proportion,Approximate t interval for Monte Carlo mean
+S2_lower_target,3+3,mean_prop_at_target,0.355463135,0.001526675,0.352470544,0.358455726,proportion,Approximate t interval for Monte Carlo mean
+S2_lower_target,3+3,mean_prop_above_target,0.21157246,0.002208703,0.207242958,0.215901963,proportion,Approximate t interval for Monte Carlo mean
+S2_lower_target,3+3,expected_cohorts,4.3096,0.014086683,4.281987267,4.337212733,count,Approximate t interval for Monte Carlo mean
+S2_lower_target,3+3,expected_escalations,1.6386,0.009222121,1.620522788,1.656677212,count,Approximate t interval for Monte Carlo mean
+S2_lower_target,3+3,expected_deescalations,0.7407,0.005886409,0.729161453,0.752238547,count,Approximate t interval for Monte Carlo mean

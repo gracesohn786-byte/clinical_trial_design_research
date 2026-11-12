@@ -1,0 +1,2 @@
+scenario,target,phi1,phi2,lambda_e,lambda_d,escalation_rule,stay_rule,deescalation_rule
+S2_lower_target,0.25,0.15,0.35,0.19680087055548712,0.2983921523754597,observed DLT rate <= lambda_e,lambda_e < observed DLT rate < lambda_d,observed DLT rate >= lambda_d

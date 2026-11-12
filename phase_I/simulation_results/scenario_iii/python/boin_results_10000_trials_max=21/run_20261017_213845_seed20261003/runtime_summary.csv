@@ -1,0 +1,2 @@
+scenario,design,n_trials,elapsed_seconds,elapsed_minutes
+S3_higher_target,BOIN,10000,51.244784200098366,0.854079736668306

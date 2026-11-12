@@ -1,0 +1,19 @@
+scenario,design,metric,estimate,mcse,mc_ci_low,mc_ci_high,unit,ci_method
+S3_higher_target,BOIN,PCS,0.4603,0.004984214180791191,0.45049387903438265,0.4701292541124488,probability,Pointwise exact binomial
+S3_higher_target,BOIN,P_select_below_true_target,0.5397,0.004984214180791191,0.5298707458875512,0.5495061209656175,probability,Pointwise exact binomial
+S3_higher_target,BOIN,P_select_above_true_target,0.0,0.0,0.0,0.000368819914622022,probability,Pointwise exact binomial
+S3_higher_target,BOIN,P_no_dose_recommended,0.0,0.0,0.0,0.000368819914622022,probability,Pointwise exact binomial
+S3_higher_target,BOIN,P_any_dose_eliminated,0.0578,0.002333648645362022,0.053305448211781625,0.06255417765688935,probability,Pointwise exact binomial
+S3_higher_target,BOIN,expected_N,30.0,0.0,30.0,30.0,count,Approximate t interval for Monte Carlo mean
+S3_higher_target,BOIN,expected_DLT_count,4.0637,0.013389628793059261,4.037453632720424,4.089946367279576,count,Approximate t interval for Monte Carlo mean
+S3_higher_target,BOIN,mean_trial_DLT_rate,0.13545666666666667,0.00044632095976864205,0.13458178775734747,0.13633154557598587,proportion,Approximate t interval for Monte Carlo mean
+S3_higher_target,BOIN,expected_n_below_target,23.3373,0.05995725442543066,23.219771714112003,23.454828285887995,count,Approximate t interval for Monte Carlo mean
+S3_higher_target,BOIN,expected_n_at_target,6.6627,0.05995725442543066,6.545171714112004,6.780228285887996,count,Approximate t interval for Monte Carlo mean
+S3_higher_target,BOIN,expected_n_above_target,0.0,0.0,0.0,0.0,count,Approximate t interval for Monte Carlo mean
+S3_higher_target,BOIN,mean_prop_below_target,0.77791,0.001998575147514355,0.7739923904704001,0.7818276095295998,proportion,Approximate t interval for Monte Carlo mean
+S3_higher_target,BOIN,mean_prop_at_target,0.22209,0.001998575147514355,0.21817239047040013,0.2260076095295999,proportion,Approximate t interval for Monte Carlo mean
+S3_higher_target,BOIN,mean_prop_above_target,0.0,0.0,0.0,0.0,proportion,Approximate t interval for Monte Carlo mean
+S3_higher_target,BOIN,expected_cohorts,10.0,0.0,10.0,10.0,count,Approximate t interval for Monte Carlo mean
+S3_higher_target,BOIN,expected_escalations,5.3288,0.007423918605207473,5.314247625369051,5.34335237463095,count,Approximate t interval for Monte Carlo mean
+S3_higher_target,BOIN,expected_deescalations,2.0784,0.010059595595567182,2.058681168002049,2.0981188319979505,count,Approximate t interval for Monte Carlo mean
+S3_higher_target,BOIN,expected_stays,1.5928,0.015739237222903654,1.5619479273072279,1.6236520726927721,count,Approximate t interval for Monte Carlo mean

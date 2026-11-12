@@ -1,0 +1,5 @@
+"stop_reason","n_trials","probability"
+"highest_dose_confirmed",117,0.0117
+"lower_dose_already_confirmed",2571,0.2571
+"lower_dose_confirmation_passed",7047,0.7047
+"lowest_dose_too_toxic",265,0.0265

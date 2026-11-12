@@ -1,0 +1,20 @@
+[theme]
+base = "light"
+primaryColor = "#2F5D8C"
+backgroundColor = "#F7F5F1"
+secondaryBackgroundColor = "#EEE8DF"
+textColor = "#1F2A33"
+font = "sans serif"
+borderColor = "#D5CDC0"
+showWidgetBorder = true
+baseRadius = "0.5rem"
+buttonRadius = "0.5rem"
+headingFontWeights = [600, 600, 600, 600, 600, 600]
+chartCategoricalColors = ["#2F5D8C", "#C45C26", "#3D7A5A", "#8B5E3C", "#5B6B7A"]
+
+[theme.sidebar]
+backgroundColor = "#E8E1D6"
+secondaryBackgroundColor = "#DED5C8"
+
+[browser]
+gatherUsageStats = false

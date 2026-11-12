@@ -1,0 +1,6 @@
+"scenario","design","dose_level","dose_label","true_dlt_probability","is_true_target","total_patients_at_dose","total_DLT_at_dose","mean_patients_per_trial","mean_patients_mcse","mean_DLT_per_trial","mean_trial_allocation_proportion","pooled_patient_proportion"
+"S1_middle_target","3+3",1,"D1",0.05,0,3708,205,3.708,0.0403033542073158,0.205,0.257746428571429,0.226872246696035
+"S1_middle_target","3+3",2,"D2",0.1,0,4539,473,4.539,0.0528324736338388,0.473,0.29225,0.277716593245228
+"S1_middle_target","3+3",3,"D3",0.25,1,4632,1114,4.632,0.0667160177695509,1.114,0.274239285714286,0.283406754772394
+"S1_middle_target","3+3",4,"D4",0.4,0,2715,1045,2.715,0.0853173725219785,1.045,0.14124126984127,0.166116005873715
+"S1_middle_target","3+3",5,"D5",0.55,0,750,444,0.75,0.0544836532224893,0.444,0.0345230158730159,0.0458883994126285

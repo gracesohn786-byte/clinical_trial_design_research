@@ -1,0 +1,21 @@
+parameter,value
+scenario_id,S3_higher_target
+n_trials,10000
+target,0.25
+p_true,"0.02,0.05,0.1,0.18,0.25"
+true_target_dose,5
+benchmark_tie_rule,Lowest dose among equally close true probabilities
+cohort_size,3
+max_n,30
+start_dose,1
+master_seed,20261003
+phi1,0.15
+phi2,0.35
+lambda_e,0.19680087055548712
+lambda_d,0.2983921523754597
+prior_alpha,1.0
+prior_beta,1.0
+elimination_cutoff,0.95
+minimum_n_for_elimination,3
+final_selection_method,Weighted isotonic regression among treated non-eliminated doses; closest to target
+assumptions,Independent Bernoulli DLTs at assigned dose; complete DLT observation

@@ -1,0 +1,19 @@
+scenario,design,metric,estimate,mcse,mc_ci_low,mc_ci_high,unit,ci_method
+S1_middle_target,BOIN,PCS,0.5059,0.004999651887881795,0.4960503437801953,0.5157462183677096,probability,Pointwise exact binomial
+S1_middle_target,BOIN,P_select_below_true_target,0.3045,0.004601953389594467,0.2954883281164674,0.31362565298509437,probability,Pointwise exact binomial
+S1_middle_target,BOIN,P_select_above_true_target,0.1892,0.003916674099283727,0.18156480655634444,0.19701662713113868,probability,Pointwise exact binomial
+S1_middle_target,BOIN,P_no_dose_recommended,0.0004,0.0001999599959991998,0.00010899694802059715,0.001023839286565521,probability,Pointwise exact binomial
+S1_middle_target,BOIN,P_any_dose_eliminated,0.1503,0.003573652333397864,0.14334835147788985,0.15745595724124128,probability,Pointwise exact binomial
+S1_middle_target,BOIN,expected_N,20.9931,0.0034592536252151793,20.986319166672665,20.99988083332733,count,Approximate t interval for Monte Carlo mean
+S1_middle_target,BOIN,expected_DLT_count,3.6996,0.011478203644991303,3.677100410710985,3.7220995892890154,count,Approximate t interval for Monte Carlo mean
+S1_middle_target,BOIN,mean_trial_DLT_rate,0.17647619047619045,0.0005669878582680312,0.1753647801599555,0.17758760079242542,proportion,Approximate t interval for Monte Carlo mean
+S1_middle_target,BOIN,expected_n_below_target,11.9061,0.04679965063683673,11.814363265684635,11.997836734315365,count,Approximate t interval for Monte Carlo mean
+S1_middle_target,BOIN,expected_n_at_target,6.3858,0.03072279650393991,6.325577135470995,6.446022864529004,count,Approximate t interval for Monte Carlo mean
+S1_middle_target,BOIN,expected_n_above_target,2.7012,0.03331490423645892,2.635896082618269,2.766503917381731,count,Approximate t interval for Monte Carlo mean
+S1_middle_target,BOIN,mean_prop_below_target,0.5672857142857142,0.002228847244947543,0.562916725099749,0.5716547034716793,proportion,Approximate t interval for Monte Carlo mean
+S1_middle_target,BOIN,mean_prop_at_target,0.30408571428571424,0.0014629903097114242,0.3012179588319521,0.30695346973947635,proportion,Approximate t interval for Monte Carlo mean
+S1_middle_target,BOIN,mean_prop_above_target,0.12862857142857143,0.0015864240112599486,0.12551886107706042,0.13173828178008243,proportion,Approximate t interval for Monte Carlo mean
+S1_middle_target,BOIN,expected_cohorts,6.9977,0.0011530845417383926,6.995439722224222,6.999960277775778,count,Approximate t interval for Monte Carlo mean
+S1_middle_target,BOIN,expected_escalations,3.764,0.007029604649918331,3.750220560082471,3.7777794399175284,count,Approximate t interval for Monte Carlo mean
+S1_middle_target,BOIN,expected_deescalations,1.8099,0.005093014125180484,1.79991666727618,1.8198833327238202,count,Approximate t interval for Monte Carlo mean
+S1_middle_target,BOIN,expected_stays,0.4238,0.008256280798111321,0.40761602794672946,0.43998397205327056,count,Approximate t interval for Monte Carlo mean

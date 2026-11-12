@@ -1,0 +1,2 @@
+scenario,design,n_trials,elapsed_seconds,elapsed_minutes
+S2_lower_target,3+3,10000,140.11,2.335166667
